@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url("images/image.jpg");
+    background-repeat: no-repeat;
+    background-size:100% 100vh; 
+}
+#div1{
+    height: 80vh;
+    width: 550px;
+    background-color: rgb(243, 234, 234);
+    position: relative;
+    left: 51%;
+    top: 10vh;
+    
+}
+img{
+    height: 500px;
+    width: 250px;
+    position: absolute;
+    top: 0px;
+    background: transparent;
+}
+#div2{
+    width: 16%;
+    position: absolute;
+    top: 21%;
+    left: 72%;
+    line-height: 40px;
+}
+legend{
+    font-size: 40px;
+}

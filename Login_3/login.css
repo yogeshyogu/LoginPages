@@ -1,0 +1,54 @@
+body{
+    background-image: url(image.jpg);
+    background-repeat: no-repeat;
+    background-size:100% 100vh;
+    
+}
+fieldset{
+  height: 300px;
+    width: 600px;
+
+}
+
+
+legend{
+    font-size: 40px;
+    transition: linear;
+    color: coral;
+    animation-name: legend;
+    background: linear-gradient(90deg,#00ff08,#ffff00,#ff00f3,rgba(1, 1, 119, 0.2));
+   background-size: 400%;
+   letter-spacing: 3px;
+   font-weight: 600;
+   -webkit-text-fill-color: transparent;
+   -webkit-background-clip:text;
+    animation-duration: 10s;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: infinite;
+ 
+}
+@keyframes legend {
+    0%{
+        color: aqua;
+        background-position: 0%;
+    }
+    50%{
+        color: rgb(255, 0, 195);
+        background-position: 200%;
+    }
+    100%{
+        color: chartreuse;
+        background-position: 400%;
+    }
+    
+}
+#form{
+   
+    margin: 0px;
+    position:absolute;
+    top:25%;
+    right: 50px;
+    backdrop-filter: blur(30px);
+   
+   
+}
